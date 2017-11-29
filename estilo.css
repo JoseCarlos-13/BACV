@@ -1,0 +1,136 @@
+@charset"utf-8";
+
+@font-face {
+	font-family: Arial;
+	src: url("Buffied.ttf");
+}
+
+/*FORMATAÇÃO DE TEXTO*/
+
+
+
+h1 {
+	font-family: Arial;
+	font-size: 600%;
+}
+
+h2 {
+	font-family: Arial;
+	color: white;
+}
+
+a {
+	color: white;
+	text-shadow: 2px 2px 2px black;
+}
+
+p {
+	text-indent: 45px;
+	text-align: justify;
+}
+
+article#personagem-vilao h2 {
+	background-color: darkblue;
+	font-size: 25pt;
+	color: white;
+	margin: 5px 0px 5px 0px;
+	padding: 5px 0px 5px 0px;
+}
+
+article#personagem-vilao h1  {
+	font-size: 50pt;
+	background-color: darkblue;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: white;
+	margin: 5px;
+	padding: 1px;
+}
+
+
+
+/*FORMATAÇÃO DE CORPO*/
+
+section#corpo-site {
+	border-top: 1px solid white;
+	padding: 20px;
+}
+
+div#interface {
+	width: 1053px;
+	margin: -45px auto 0px auto;
+	box-shadow: 2px 4px 3px black;
+	background-color: black;
+	padding: 6px;
+}
+
+body {
+	background-color: black;
+	background-image: url("fotos/buffybackground10.jpg");
+	background-size: 76% 105%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: white;
+	text-shadow: 3px 2px 3px black;
+	font-family: sans-serif;
+}
+
+/*FORMATAÇÃO DE IMAGEM*/
+
+ figure.foto-personagem img {
+ 	border: 8px solid white;
+ 	box-shadow: 2px 2px 4px black;
+ 	display: inline-block;
+ 	margin-right: 5px;
+ 	margin-left: 5px;
+ 	width: 17%;
+ 	height: 20%;
+ }
+
+figure.foto-vilao img {
+	border: 8px solid white;
+ 	box-shadow: 2px 2px 4px black;
+ 	display: inline-block;
+ 	margin-right: 5px;
+ 	margin-left: 5px;
+ 	width: 30%;
+ 	height: 30%;
+}
+
+figure.buffy20anos img {
+	border: 8px solid white;
+ 	box-shadow: 2px 2px 4px black;
+ 	display: inline-block;
+}
+
+figure.logo img {
+	top: -30px;
+	right: 200px;
+	position: absolute;
+}
+
+/*FORMATAÇÃO DE MENU*/
+
+nav#menu-site ul {
+	list-style: none;
+}
+
+nav#menu-site li {
+	display: inline-block;
+	text-transform: none;
+	position: relative;
+	top: 20px;
+	left: 40px;
+	background-color: darkred; 
+	margin-bottom: 15px;
+	box-shadow: 1px 2px 2px black;
+	padding: 10px;
+	font-family: Arial;
+	font-size: 150%;
+}
+
+nav#menu-site li a:link {
+	text-decoration: none;
+}
+
