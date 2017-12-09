@@ -11,7 +11,7 @@
 
 h1 {
 	font-family: Arial;
-	font-size: 600%;
+	font-size: 400%;
 }
 
 h2 {
@@ -53,11 +53,11 @@ article#personagem-vilao h1  {
 
 section#corpo-site {
 	border-top: 1px solid white;
-	padding: 20px;
+	padding: 10px;
 }
 
 div#interface {
-	width: 1053px;
+	width: 1050px;
 	margin: -45px auto 0px auto;
 	box-shadow: 2px 4px 3px black;
 	background-color: black;
@@ -110,6 +110,13 @@ figure.logo img {
 	position: absolute;
 }
 
+figure.foto-galeria img {
+	width: 40%;
+	height: 40%;
+	border: 8px solid white;
+	display: inline-block;
+	margin-bottom: 50px;
+}
 /*FORMATAÇÃO DE MENU*/
 
 nav#menu-site ul {
@@ -134,3 +141,20 @@ nav#menu-site li a:link {
 	text-decoration: none;
 }
 
+nav#menu li {
+	display: inline-block;
+	text-transform: none;
+	position: relative;
+	top: -10px;
+	left: 150px;
+	background-color: darkred; 
+	margin-bottom: 15px;
+	box-shadow: 1px 2px 2px black;
+	padding: 10px;
+	font-family: Arial;
+	font-size: 150%;
+}
+
+nav#menu li a:link {
+	text-decoration: none;
+}
