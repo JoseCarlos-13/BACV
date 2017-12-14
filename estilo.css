@@ -25,7 +25,7 @@ a {
 }
 
 p {
-	text-indent: 45px;
+	text-indent: 5%;
 	text-align: justify;
 }
 
@@ -59,7 +59,7 @@ section#corpo-site {
 div#interface {
 	width: 1050px;
 	margin: -45px auto 0px auto;
-	box-shadow: 2px 4px 3px black;
+	box-shadow: 2px 1px 6px white;
 	background-color: black;
 	padding: 6px;
 }
