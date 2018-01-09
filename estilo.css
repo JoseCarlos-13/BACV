@@ -47,21 +47,22 @@ article#personagem-vilao h1  {
 	padding: 1px;
 }
 
-
-
 /*FORMATAÇÃO DE CORPO*/
 
 section#corpo-site {
 	border-top: 1px solid white;
-	padding: 10px;
+	padding: -5px;
 }
 
 div#interface {
 	width: 1050px;
 	margin: -45px auto 0px auto;
-	box-shadow: 2px 1px 6px white;
 	background-color: black;
+	background-image: url(AgnoZ6a2.jpg);
 	padding: 6px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 body {
