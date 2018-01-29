@@ -48,17 +48,12 @@ article#personagem-vilao h1  {
 
 /*FORMATAÇÃO DE CORPO*/
 
-section#corpo-site {
-	border-top: 1px solid white;
-	padding: -5px;
-}
-
 div#interface {
 	width: 1050px;
-	margin: -45px auto 0px auto;
+	margin: -25px auto 0px auto;
 	background-color: black;
 	background-image: url(AgnoZ6a2.jpg);
-	padding: 6px;
+	padding: 25px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -74,6 +69,10 @@ body {
 	color: white;
 	text-shadow: 3px 2px 3px black;
 	font-family: sans-serif;
+}
+
+section#corpo-site {
+	padding-top: 30px;
 }
 
 /*FORMATAÇÃO DE IMAGEM*/
@@ -110,6 +109,12 @@ figure.logo img {
 	position: absolute;
 }
 
+.logo2 img {
+	top: -10px;
+	left: 150px;
+	position: absolute;
+}
+
 figure.foto-galeria img {
 	width: 40%;
 	height: 40%;
@@ -125,6 +130,14 @@ figcaption {
 
 /*FORMATAÇÃO DE MENU*/
 
+#cabeçalho {
+	border-bottom: 2px white solid;
+	height: 140px;
+	background-image: url('buffy2002.jpg');
+	background-repeat: no-repeat;
+	background-position: right; 
+}
+
 nav#menu-site ul {
 	list-style: none;
 }
@@ -133,8 +146,8 @@ nav#menu-site li {
 	display: inline-block;
 	text-transform: none;
 	position: relative;
-	top: 20px;
-	left: 40px;
+	top: -0px;
+	right: -540px;
 	background-color: darkred; 
 	margin-bottom: 15px;
 	box-shadow: 1px 2px 2px black;
