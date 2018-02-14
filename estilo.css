@@ -110,9 +110,11 @@ figure.logo img {
 }
 
 .logo2 img {
-	top: -10px;
-	left: 150px;
+	top: -5px;
+	left: 800px;
 	position: absolute;
+	width: 350px;
+	height: 230px;
 }
 
 figure.foto-galeria img {
@@ -132,10 +134,10 @@ figcaption {
 
 #cabeçalho {
 	border-bottom: 2px white solid;
-	height: 140px;
+	height: 260px;
 	background-image: url('buffy2002.jpg');
 	background-repeat: no-repeat;
-	background-position: right; 
+	background-position: center; 
 }
 
 nav#menu-site ul {
@@ -146,8 +148,8 @@ nav#menu-site li {
 	display: inline-block;
 	text-transform: none;
 	position: relative;
-	top: -0px;
-	right: -540px;
+	top: 200px;
+	right: -590px;
 	background-color: darkred; 
 	margin-bottom: 15px;
 	box-shadow: 1px 2px 2px black;
