@@ -2,7 +2,7 @@
 
 @font-face {
 	font-family: Arial;
-	src: url("fotos/Buffied.ttf");
+	src: url("../fotos/Buffied.ttf");
 }
 
 /*FORMATAÇÃO DE TEXTO*/
@@ -42,7 +42,7 @@ div#interface {
 	width: 1100px;
 	margin: -25px auto 0px auto;
 	background-color: black;
-	background-image: url(fotos/AgnoZ6a2.jpg);
+	background-image: url(../fotos/AgnoZ6a2.jpg);
 	padding: 25px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -134,7 +134,7 @@ figcaption {
 #cabeçalho {
 	border-bottom: 2px white solid;
 	height: 260px;
-	background-image: url('fotos/buffy2002.jpg');
+	background-image: url('../fotos/buffy2002.jpg');
 	background-repeat: no-repeat;
 	background-position: center; 
 }
