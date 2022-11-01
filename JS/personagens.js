@@ -1,4 +1,5 @@
   let characters_list = document.querySelector(".characters-list")
+
   let characters = [
     {
       name: "Buffy Summers",
@@ -96,7 +97,7 @@
 const list_characters = () => {
   characters_list.innerHTML = characters.map(character => `
       <div class="personagem-info">
-      <figcaption><h2>${character.name}</h2></figcaption>
+        <figcaption><h2>${character.name}</h2></figcaption>
         <figure>
           <div class="profile">
             <img src="${character.photo}" align="left">
