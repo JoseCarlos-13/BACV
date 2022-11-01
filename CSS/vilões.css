@@ -7,8 +7,6 @@
 
 /*FORMATAÇÃO DE TEXTO*/
 
-
-
 h1 {
 	font-family: Arial;
 	font-size: 400%;
@@ -173,4 +171,14 @@ figure.foto-vilao img {
 	margin-right: 25px;
  	width: 26%;
  	height: 30%;
+}
+
+figure.foto-personagem img {
+  border: 8px solid white;
+  box-shadow: 2px 2px 4px black;
+  display: inline-block;
+  margin-right: 25px;
+  margin-left: 25px;
+  width: 17%;
+  height: 20%;
 }
