@@ -29,129 +29,84 @@ p {
 
 /*FORMATAÇÃO DE CORPO*/
 
-div#interface {
-	width: 1100px;
-	margin: -25px auto 0px auto;
-	background-color: black;
-	background-image: url(../fotos/AgnoZ6a2.jpg);
-	padding: 25px;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-}
-
 body {
 	background-color: black;
-	background-size: 76% 105%;
-	background-position: center;
+	background-size: 100%;
+  background-image: url('../fotos/buffybackground10.jpg');
 	background-repeat: no-repeat;
 	color: white;
 	text-shadow: 3px 2px 3px black;
 	font-family: sans-serif;
 }
 
-section#corpo-site {
+#corpo-site {
 	padding-top: 30px;
 }
 
-footer#rodape {
+#rodape {
 	background-color: darkred;
+  margin-top: 780px;
 	padding: 30px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 /*FORMATAÇÃO DE IMAGEM*/
 
-#main-photo img {
-	margin-top: -110px;
-	width: 100%;
-	 height: 700px;
-}
-
-figure.logo img {
-	top: -30px;
-	right: 200px;
+.logo img {
+	top: 0px;
+	right: 150px;
 	position: absolute;
+  width: 300px;
+	height: auto;
 }
 
-.logo2 img {
-	top: -5px;
-	left: 800px;
-	position: absolute;
-	width: 350px;
-	height: 230px;
+#menu-site {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-figcaption {
-	margin-bottom: 50px;
-	margin-top: 5px;
-}
-
-/*FORMATAÇÃO DE MENU*/
-
-#cabeçalho {
-	border-bottom: 2px white solid;
-	height: 260px;
-	background-image: url('../fotos/buffy2002.jpg');
-	background-repeat: no-repeat;
-	background-position: center; 
-}
-
-nav#menu-site ul {
+#menu-site ul {
+  display: flex;
+  flex-direction: row;
 	list-style: none;
+  flex-wrap: wrap;
 }
 
-nav#menu-site li {
-	display: inline-block;
+#menu-site li {
 	text-transform: none;
-	position: relative;
-	top: 199px;
-	right: -560px;
-	background-color: darkred; 
-	margin-bottom: 15px;
-	box-shadow: 1px 2px 2px black;
-	padding: 10px;
+  margin: 5px;
+	background-color: darkred;
+	box-shadow: 4px 4px 1px white;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+	padding: 10px 23px 10px 23px;
 	font-family: Arial;
-	font-size: 169%;
-	
+	font-size: 190%;
 }
 
-nav#menu-site a {
+#menu-site li:hover {
+  box-shadow: 4px 4px 1px black;
+  background-color: white;
+  color: black;
+  transition: 0.3s;
+}
+
+#menu-site a {
 	transition: color 0.3s;
 	text-shadow: 0px 0px 0px black;
 }
 
-nav#menu-site a:hover {
+#menu-site a:hover {
 	color: black;
-	
+  text-shadow: 2px 2px 9px black;
 }
 
-nav#menu-site li a:link {
+#menu-site li a:link {
 	text-decoration: none;
-}
-
-nav#menu li {
-	display: inline-block;
-	text-transform: none;
-	position: relative;
-	top: -10px;
-	left: 150px;
-	background-color: darkred; 
-	margin-bottom: 15px;
-	box-shadow: 1px 2px 2px black;
-	padding: 10px;
-	font-family: Arial;
-	font-size: 180%;
-}
-
-nav#menu li a:link {
-	text-decoration: none;
-}
-
-nav#menu a {
-	transition: color 0.3s;
-	text-shadow: 0px 0px 0px black;
-}
-
-nav#menu a:hover {
-	color: black;
 }
