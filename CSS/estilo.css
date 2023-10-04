@@ -23,11 +23,11 @@ a {
 }
 
 p {
-	text-indent: 5%;
+	text-indent: 2%;
 	text-align: justify;
 }
 
-.personagem-vilao h2 {
+.article h2 {
 	background-color: darkblue;
 	font-size: 35pt;
 	color: white;
@@ -64,9 +64,9 @@ body {
 #rodape {
 	background-color: darkred;
 	padding: 30px;
-  text-align: center;
-  left: 0;
-  bottom: 0;
+	text-align: center;
+	left: 0;
+	bottom: 0;
 }
 
 /*FORMATAÇÃO DE IMAGEM*/
@@ -91,39 +91,51 @@ figcaption {
 	margin-top: 5px;
 }
 
- figure.foto-personagem img {
- 	border: 8px solid white;
- 	box-shadow: 2px 2px 4px black;
- 	display: inline-block;
- 	margin-right: 25px;
- 	margin-left: 25px;
- 	width: 17%;
- 	height: 20%;
- }
+.foto-personagem img {
+  border: 8px solid white;
+  box-shadow: 2px 2px 4px black;
+  display: inline-block;
+  margin-right: 25px;
+  margin-left: 25px;
+  width: 17%;
+  height: 20%;
+}
 
-figure.foto-vilao img {
+.profile-character-photo {
+  border: 8px solid white;
+  box-shadow: 2px 2px 4px black;
+  margin: -80px 25px 0px 25px;
+  max-width: 100%;
+}
+
+.profile-character-photo img {
+	width: 220px;
+}
+
+.profile-villain-photo {
+  border: 8px solid white;
+  box-shadow: 2px 2px 4px black;
+  margin: -80px 25px 0px 25px;
+  max-width: 100%;
+}
+
+.profile-villain-photo img {
+  width: 320px;
+}
+
+.buffy20anos img {
 	border: 8px solid white;
  	box-shadow: 2px 2px 4px black;
  	display: inline-block;
-	 margin-left: 25px;
-	 margin-right: 25px;
- 	width: 26%;
- 	height: 30%;
 }
 
-figure.buffy20anos img {
-	border: 8px solid white;
- 	box-shadow: 2px 2px 4px black;
- 	display: inline-block;
-}
-
-.personagem-info  {
+.personagem  {
   display: flex;
   flex-direction: column;
   margin: 0px 0px 20px 0px;
 }
 
-.personagem-info > figure {
+.personagem > figure {
   display: flex;
   flex-direction: row;
 }
@@ -132,48 +144,36 @@ figure.buffy20anos img {
 	display: flex;
 	flex-direction: column;
 	margin: 0px 0px 20px 0px;
-  }
+}
   
-  .villain-info > figure {
-	display: flex;
-	flex-direction: row;
-  }
+.villain-info > figure {
+  display: flex;
+  flex-direction: row;
+}
 
-  .profile {
-    border: 8px solid white;
-    box-shadow: 2px 2px 4px black;
-    margin: -60px 25px 0px 25px;
-    width: 120%;
-    height: auto;
-    }
-    
-  .profile img {
-    width: 100%;
-    height: auto;
-  }
-    
-  .photo-and-gif {
-    display: flex;
-    justify-content: right;
-    margin: 0px 0px 0px 0px;
-  }
-    
-  .photo-and-gif img {
-    border: 8px solid white;
-    box-shadow: 2px 2px 4px black;
-    display: inline-block;
-    margin: 0px 25px 20px 25px;
-    width: 25%;
-    height: 30%;
-  }
+.photo-and-gif {
+  display: flex;
+  justify-content: right;
+  margin: 0px 25px 20px 55px;
+  display: inline-block;
+  max-width: 100%;
+}
 
-  .foto-galeria img {
-    width: 40%;
-    height: 40%;
-    border: 8px solid white;
-    display: inline-block;
-    margin-bottom: 50px;
-  }
+.photo-and-gif img {
+  border: 8px solid white;
+  box-shadow: 2px 2px 4px black;
+  width: 400px;
+  height: auto;
+  margin: 0px 50px 0 50px;
+}
+
+.foto-galeria img {
+  width: 40%;
+  height: 40%;
+  border: 8px solid white;
+  display: inline-block;
+  margin-bottom: 50px;
+}
 
 /*FORMATAÇÃO DE MENU*/
 
