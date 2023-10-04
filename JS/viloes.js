@@ -53,20 +53,20 @@ let villains = [
 ]
 
 const list_villains = () => {
-villains_list.innerHTML = villains.map(villain => `
-    <div class="villain-info">
-      <figcaption><h2>${villain.name}</h2></figcaption>
-      <figure>
-        <div class="profile">
-          <img src="${villain.photo}" align="left">
-        </div>
-        <p>${villain.text}</p>
-      </figure>
-      <figure class="photo-and-gif">
-        ${villain.photo2 ? `<img src="${villain.photo2}">` : ''}
-        ${villain.gif ? `<img src="${villain.gif}">` : ''}
-      </figure>
-    </div> 
-  ` ).join("")
+  villains_list.innerHTML = villains.map(villain => `
+      <div class="villain-info">
+        <figcaption><h2>${villain.name}</h2></figcaption>
+        <figure>
+          <div class="profile">
+            <img src="${villain.photo}" align="left">
+          </div>
+          <p>${villain.text}</p>
+        </figure>
+        <figure class="photo-and-gif">
+          ${villain.photo2 ? `<img src="${villain.photo2}">` : ''}
+          ${villain.gif ? `<img src="${villain.gif}">` : ''}
+        </figure>
+      </div> 
+    ` ).join("")
 };
 list_villains();
